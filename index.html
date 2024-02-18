@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEather</title>
+    <link rel="icon" type="image/x-icon" href="weather.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section>
+      <div class="weather_c">
+        <form>
+          <div class="inputContainer">
+            <input
+              type="text"
+              id="formInput"
+              class="textInput"
+              placeholder=""
+            />
+            <label for="">location</label>
+          </div>
+          <input type="submit" id="formSubmit" />
+        </form>
+
+        <div id="weather_details">
+          <div class="weather_details_subdiv">
+            <div class="temperature">23°C</div>
+            <div class="temperature_subdiv">
+              <div class="description">sunny</div>
+              <div class="icon">
+                <img src="https://openweathermap.org/img/wn/01d@2x.png" />
+              </div>
+            </div>
+          </div>
+          <div class="details">
+            <div>feels like 21°C</div>
+            <div>humidity is at 30%</div>
+            <div>wind speed at 311 m/s</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
